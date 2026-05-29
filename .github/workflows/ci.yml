@@ -9,7 +9,7 @@ on:
 jobs:
   lint-and-validate:
     name: Code Lint & Validation
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     
     steps:
       - name: Checkout Code
@@ -29,7 +29,7 @@ jobs:
 
   docker-build:
     name: Docker Build Validation
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: lint-and-validate
     
     steps:
@@ -61,7 +61,7 @@ jobs:
 
   deploy:
     name: Continuous Deployment to VPS
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: docker-build
     # Only deploy when pushing to main or master branch
     if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')

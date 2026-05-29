@@ -183,4 +183,4 @@ graph TD
 ```
 
 ---
-*Crafted with 💖 for high-performance deployment systems by Fadlan.*
+*Crafted with 💖 for high-performance deployment systems by Fadlan Achmad F.*
