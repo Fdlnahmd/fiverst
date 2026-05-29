@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $title ?? 'Five Star Hainanese Chicken Rice' ?></title>
     
+    <!-- Premium Favicons -->
+    <link rel="icon" type="image/png" href="/assets/photo/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    
     <!-- Bootstrap 5 CSS -->
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
     
