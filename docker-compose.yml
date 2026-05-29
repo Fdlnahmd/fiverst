@@ -1,0 +1,50 @@
+services:
+  web:
+    build: .
+    container_name: ${COMPOSE_PROJECT_NAME}_web
+    ports:
+      - "${WEB_PORT}:80"
+    volumes:
+      - .:/var/www/html
+    environment:
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_PASS=${DB_PASS}
+    depends_on:
+      - db
+    networks:
+      - fiverst_network
+
+  db:
+    image: mysql:8.0
+    container_name: ${COMPOSE_PROJECT_NAME}_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASS}
+      MYSQL_DATABASE: ${DB_NAME}
+    ports:
+      - "${DB_HOST_PORT}:${DB_PORT}"
+    volumes:
+      - fiverst_db_data:/var/lib/mysql
+      - ./fiverst.sql:/docker-entrypoint-initdb.d/fiverst.sql
+    networks:
+      - fiverst_network
+
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: ${COMPOSE_PROJECT_NAME}_tunnel
+    restart: always
+    command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TOKEN}
+    depends_on:
+      - web
+    networks:
+      - fiverst_network
+
+networks:
+  fiverst_network:
+    driver: bridge
+
+volumes:
+  fiverst_db_data:

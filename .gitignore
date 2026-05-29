@@ -1,0 +1,29 @@
+# =========================================================================
+# FiveStar Restaurant Git Ignore Configuration
+# =========================================================================
+
+# Sensitive Environment Configurations
+.env
+.env.local
+.env.testing
+
+# Docker seths
+.docker/
+
+# Dynamic uploaded assets (Ignored to prevent repository bloating)
+/assets/upload/*
+!/assets/upload/.gitkeep
+
+# IDE / Local Editor configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
+
+# Composer dependencies (if any)
+/vendor/

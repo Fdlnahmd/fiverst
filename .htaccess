@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Prevent directory browsing for security
+    Options -Indexes
+
+    # Do not rewrite if the requested path is an existing file, directory, or symlink
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-l
+
+    # Forward all other requests to index.php
+    RewriteRule ^(.*)$ index.php [L,QSA]
+</IfModule>
