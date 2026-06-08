@@ -1,3 +1,9 @@
+<?php
+/** @var array $productsByCategory */
+if (!isset($productsByCategory)) {
+    $productsByCategory = [];
+}
+?>
 <div class="container my-5 anim-fade-up">
     <div class="text-center mb-5">
         <h1 class="text-uppercase gold-text">Daftar Menu</h1>
