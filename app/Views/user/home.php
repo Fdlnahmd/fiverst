@@ -11,7 +11,7 @@
             <div class="w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/assets/photo/section_chicken.jpg') center/cover no-repeat;"></div>
             <div class="carousel-caption d-md-block glass-panel p-4" style="border-radius: 12px; max-width: 600px; margin: 0 auto 40px auto; bottom: 20px;">
                 <h2 class="gold-text mb-2">THE KAMPUNG CHICKEN DIFFERENCE</h2>
-                <p class="small text-light mb-3">Nikmati ayam kampung Hainan khas kami yang segar dengan kandungan lemak yang lebih rendah namun kaya rasa, disajikan dengan saus jahe cabai buatan rumah.</p>
+                <p class="small mb-3">Nikmati ayam kampung Hainan khas kami yang segar dengan kandungan lemak yang lebih rendah namun kaya rasa, disajikan dengan saus jahe cabai buatan rumah.</p>
                 <a class="btn btn-gold btn-sm text-uppercase" href="/user/menu#chicken">Beli Sekarang</a>
             </div>
         </div>
@@ -20,7 +20,7 @@
             <div class="w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/assets/photo/section_pork.jpg') center/cover no-repeat;"></div>
             <div class="carousel-caption d-md-block glass-panel p-4" style="border-radius: 12px; max-width: 600px; margin: 0 auto 40px auto; bottom: 20px;">
                 <h2 class="gold-text mb-2">MELT-IN-YOUR-MOUTH SUCCULENCE</h2>
-                <p class="small text-light mb-3">Pilihan perut babi terbaik yang dimarinasi dalam rempah-rempah pilihan lalu direbus perlahan (slow-braised) untuk kelembutan rasa maksimal.</p>
+                <p class="small mb-3">Pilihan perut babi terbaik yang dimarinasi dalam rempah-rempah pilihan lalu direbus perlahan (slow-braised) untuk kelembutan rasa maksimal.</p>
                 <a class="btn btn-gold btn-sm text-uppercase" href="/user/menu#pork">Beli Sekarang</a>
             </div>
         </div>
@@ -29,7 +29,7 @@
             <div class="w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/assets/photo/section_seafood2.jpg') center/cover no-repeat;"></div>
             <div class="carousel-caption d-md-block glass-panel p-4" style="border-radius: 12px; max-width: 600px; margin: 0 auto 40px auto; bottom: 20px;">
                 <h2 class="gold-text mb-2">CRISP TO THE LAST BITE</h2>
-                <p class="small text-light mb-3">Digulung dalam sereal harum dengan daun kari dan cabai padi untuk sensasi renyah gurih lezat di setiap suapannya.</p>
+                <p class="small mb-3">Digulung dalam sereal harum dengan daun kari dan cabai padi untuk sensasi renyah gurih lezat di setiap suapannya.</p>
                 <a class="btn btn-gold btn-sm text-uppercase" href="/user/menu#seafood">Beli Sekarang</a>
             </div>
         </div>
@@ -82,7 +82,7 @@
     </div>
     <div class="row row-cols-2 row-cols-md-4 g-3 text-center">
         <div class="col">
-            <a href="/user/menu#chicken" class="text-decoration-none text-light">
+            <a href="/user/menu#chicken" class="text-decoration-none" style="color: var(--text-primary);">
                 <div class="p-3 glass-panel h-100 hover-border-gold" style="border-radius: 12px;">
                     <i class="fa-solid fa-drumstick-bite fs-3 gold-text mb-2"></i>
                     <h6 class="mb-0 text-uppercase">Chicken</h6>
@@ -90,7 +90,7 @@
             </a>
         </div>
         <div class="col">
-            <a href="/user/menu#pork" class="text-decoration-none text-light">
+            <a href="/user/menu#pork" class="text-decoration-none" style="color: var(--text-primary);">
                 <div class="p-3 glass-panel h-100 hover-border-gold" style="border-radius: 12px;">
                     <i class="fa-solid fa-bacon fs-3 gold-text mb-2"></i>
                     <h6 class="mb-0 text-uppercase">Pork</h6>
@@ -98,7 +98,7 @@
             </a>
         </div>
         <div class="col">
-            <a href="/user/menu#omelette" class="text-decoration-none text-light">
+            <a href="/user/menu#omelette" class="text-decoration-none" style="color: var(--text-primary);">
                 <div class="p-3 glass-panel h-100 hover-border-gold" style="border-radius: 12px;">
                     <i class="fa-solid fa-egg fs-3 gold-text mb-2"></i>
                     <h6 class="mb-0 text-uppercase">Tofu & Omelette</h6>
@@ -106,7 +106,7 @@
             </a>
         </div>
         <div class="col">
-            <a href="/user/menu#fish" class="text-decoration-none text-light">
+            <a href="/user/menu#fish" class="text-decoration-none" style="color: var(--text-primary);">
                 <div class="p-3 glass-panel h-100 hover-border-gold" style="border-radius: 12px;">
                     <i class="fa-solid fa-fish fs-3 gold-text mb-2"></i>
                     <h6 class="mb-0 text-uppercase">Fish</h6>
@@ -114,7 +114,7 @@
             </a>
         </div>
         <div class="col">
-            <a href="/user/menu#seafood" class="text-decoration-none text-light">
+            <a href="/user/menu#seafood" class="text-decoration-none" style="color: var(--text-primary);">
                 <div class="p-3 glass-panel h-100 hover-border-gold" style="border-radius: 12px;">
                     <i class="fa-solid fa-shrimp fs-3 gold-text mb-2"></i>
                     <h6 class="mb-0 text-uppercase">Seafood</h6>
@@ -122,7 +122,7 @@
             </a>
         </div>
         <div class="col">
-            <a href="/user/menu#vegetables" class="text-decoration-none text-light">
+            <a href="/user/menu#vegetables" class="text-decoration-none" style="color: var(--text-primary);">
                 <div class="p-3 glass-panel h-100 hover-border-gold" style="border-radius: 12px;">
                     <i class="fa-solid fa-leaf fs-3 gold-text mb-2"></i>
                     <h6 class="mb-0 text-uppercase">Vegetables</h6>
@@ -130,7 +130,7 @@
             </a>
         </div>
         <div class="col">
-            <a href="/user/menu#srn" class="text-decoration-none text-light">
+            <a href="/user/menu#srn" class="text-decoration-none" style="color: var(--text-primary);">
                 <div class="p-3 glass-panel h-100 hover-border-gold" style="border-radius: 12px;">
                     <i class="fa-solid fa-bowl-rice fs-3 gold-text mb-2"></i>
                     <h6 class="mb-0 text-uppercase">Rice & Noodles</h6>
@@ -138,7 +138,7 @@
             </a>
         </div>
         <div class="col">
-            <a href="/user/menu#dnb" class="text-decoration-none text-light">
+            <a href="/user/menu#dnb" class="text-decoration-none" style="color: var(--text-primary);">
                 <div class="p-3 glass-panel h-100 hover-border-gold" style="border-radius: 12px;">
                     <i class="fa-solid fa-ice-cream fs-3 gold-text mb-2"></i>
                     <h6 class="mb-0 text-uppercase">Desserts</h6>
@@ -150,7 +150,7 @@
 
 <!-- SECTION: FRANCHISE / PARTNERSHIP -->
 <div class="container my-5 text-center" id="franchise" style="padding-top: 40px;">
-    <div class="glass-panel p-5" style="border-radius: 20px; background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url('/assets/photo/section_dessertsbev.jpg') center/cover no-repeat;">
+    <div class="glass-panel franchise-banner p-5" style="border-radius: 20px;">
         <h2 class="gold-text text-uppercase mb-3">Bergabung dengan Keluarga Five Star</h2>
         <p class="text-secondary mx-auto mb-4" style="max-width: 600px;">
             Kemitraan waralaba Five Star Hainanese Kampung Chicken Rice menawarkan kesempatan luar biasa untuk menghadirkan rasa legendaris kami ke wilayah Anda.

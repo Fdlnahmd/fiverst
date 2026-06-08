@@ -94,9 +94,16 @@ class UserController extends Controller
             }
         }
 
+        $fromFilter = $_GET['from_filter'] ?? '';
         $redirectUrl = '/user/menu';
-        if ($categoryHash !== '') {
-            $redirectUrl .= '#' . $categoryHash;
+        if ($fromFilter !== '') {
+            if ($fromFilter !== 'all') {
+                $redirectUrl .= '#' . $fromFilter;
+            }
+        } else {
+            if ($categoryHash !== '') {
+                $redirectUrl .= '#' . $categoryHash;
+            }
         }
 
         $this->redirect($redirectUrl);

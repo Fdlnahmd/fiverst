@@ -40,12 +40,9 @@ class Database
                     }
                     
                     // Always proactively migrate pre-existing legacy username records to valid email addresses
-                    self::$instance->exec("UPDATE cust SET email = 'vina@gmail.com' WHERE email = 'vina'");
+                    self::$instance->exec("UPDATE cust SET email = 'admin@gmail.com' WHERE email = 'admin'");
                     self::$instance->exec("UPDATE cust SET email = 'fadlan@gmail.com' WHERE email = 'fadlan'");
-                    
-                    // Renaming 'vina' admin account to 'admin' (email, pass, nama_lengkap)
-                    self::$instance->exec("UPDATE cust SET email = 'admin@gmail.com', pass = 'admin123', nama_lengkap = 'Admin' WHERE email = 'vina@gmail.com'");
-                    
+                      
                     // Self-healing migration for 'produk' table schema to add 'kategori' and 'deskripsi'
                     $checkKategori = self::$instance->query("SHOW COLUMNS FROM produk LIKE 'kategori'");
                     if ($checkKategori && $checkKategori->rowCount() === 0) {

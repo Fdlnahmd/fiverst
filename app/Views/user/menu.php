@@ -12,7 +12,7 @@ if (!isset($productsByCategory)) {
 
     <!-- Category Navigator -->
     <div class="d-flex flex-wrap justify-content-center gap-2 mb-5">
-        <button type="button" class="btn btn-gold btn-sm filter-btn" data-filter="all" style="border-radius: 20px; transition: all 0.3s; color: #ffffff;">
+        <button type="button" class="btn btn-gold btn-sm filter-btn" data-filter="all" style="border-radius: 20px; transition: all 0.3s;">
             ALL
         </button>
         <?php foreach ($productsByCategory as $categoryName => $products): ?>
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Set clicked button to active styling
             this.classList.remove('btn-outline-secondary');
             this.classList.add('btn-gold');
-            this.style.color = '#ffffff';
+            this.style.color = '';
 
             const filterValue = this.getAttribute('data-filter');
 
@@ -164,6 +164,18 @@ document.addEventListener('DOMContentLoaded', function() {
                 allBtn.click();
             }
         }
+    });
+
+    // Intercept "Beli" clicks to append the currently active filter
+    const buyButtons = document.querySelectorAll('.mt-auto a.btn-gold');
+    buyButtons.forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            const activeBtn = document.querySelector('.filter-btn.btn-gold');
+            const activeFilter = activeBtn ? activeBtn.getAttribute('data-filter') : 'all';
+            const baseHref = this.getAttribute('href');
+            window.location.href = baseHref + '&from_filter=' + activeFilter;
+        });
     });
 });
 </script>

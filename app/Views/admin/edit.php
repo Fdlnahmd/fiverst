@@ -1,3 +1,7 @@
+<?php
+/** @var array $product */
+/** @var string|null $error */
+?>
 <div class="container my-5 anim-fade-up" style="max-width: 600px;">
     <div class="card glass-panel p-5" style="border-radius: 20px;">
         <div class="text-center mb-4">

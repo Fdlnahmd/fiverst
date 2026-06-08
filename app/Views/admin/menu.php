@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Set clicked button to active styling
             this.classList.remove('btn-outline-secondary');
             this.classList.add('btn-gold');
-            this.style.color = '#ffffff';
+            this.style.color = '';
 
             const filterValue = this.getAttribute('data-filter');
 

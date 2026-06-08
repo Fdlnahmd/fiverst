@@ -1,3 +1,9 @@
+<?php
+/** @var array $productsByCategory */
+if (!isset($productsByCategory)) {
+    $productsByCategory = [];
+}
+?>
 <div class="container my-5 anim-fade-up">
     <div class="text-center mb-5">
         <h1 class="text-uppercase gold-text">Daftar Menu</h1>
@@ -6,7 +12,7 @@
 
     <!-- Category Navigator -->
     <div class="d-flex flex-wrap justify-content-center gap-2 mb-5">
-        <button type="button" class="btn btn-gold btn-sm filter-btn" data-filter="all" style="border-radius: 20px; transition: all 0.3s; color: #ffffff;">
+        <button type="button" class="btn btn-gold btn-sm filter-btn" data-filter="all" style="border-radius: 20px; transition: all 0.3s;">
             ALL
         </button>
         <?php foreach ($productsByCategory as $categoryName => $products): ?>
@@ -88,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Set clicked button to active styling
             this.classList.remove('btn-outline-secondary');
             this.classList.add('btn-gold');
-            this.style.color = '#ffffff';
+            this.style.color = '';
 
             const filterValue = this.getAttribute('data-filter');
 

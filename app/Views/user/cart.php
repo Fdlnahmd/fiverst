@@ -44,7 +44,7 @@
                             </td>
                             <td>Rp <?= number_format($item['product']['harga_menu']) ?></td>
                             <td>
-                                <span class="badge bg-secondary px-3 py-2 fs-6" style="border-radius: 10px;"><?= $item['qty'] ?></span>
+                                <span class="badge px-3 py-2 fs-6" style="border-radius: 10px; background-color: var(--bg-secondary); color: var(--text-primary); border: 1px solid var(--border-color);"><?= $item['qty'] ?></span>
                             </td>
                             <td><strong class="gold-text">Rp <?= number_format($subharga) ?></strong></td>
                             <td align="center">

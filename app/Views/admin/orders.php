@@ -27,7 +27,7 @@
                     <?php foreach ($orders as $row): ?>
                         <tr style="border-bottom: 1px solid var(--border-color);">
                             <td><?= $nomor++ ?></td>
-                            <td><span class="badge bg-secondary font-monospace" style="font-size: 0.95rem; border-radius: 6px;">#<?= $row['id_pemesanan'] ?></span></td>
+                            <td><span class="badge font-monospace" style="font-size: 0.95rem; border-radius: 6px; background-color: var(--bg-secondary); color: var(--text-primary); border: 1px solid var(--border-color);">#<?= $row['id_pemesanan'] ?></span></td>
                             <td><?= date("d M Y", strtotime($row['tanggal_pemesanan'])) ?></td>
                             <td><strong class="gold-text">Rp <?= number_format($row['total_belanja']) ?></strong></td>
                             <td align="center">
