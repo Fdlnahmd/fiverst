@@ -454,12 +454,12 @@ h1, h2, h3, h4, h5, h6, .brand-title {
 
 /* Franchise Banner theme-aware styling */
 .franchise-banner {
-    background: linear-gradient(rgba(15, 26, 20, 0.85), rgba(15, 26, 20, 0.95)), url('/assets/photo/section_dessertsbev.webp') center/cover no-repeat !important;
+    background: linear-gradient(rgba(15, 26, 20, 0.85), rgba(15, 26, 20, 0.95)), url('/assets/photo/section_dessertsbev.webp?v=2') center/cover no-repeat !important;
     border: 1px solid var(--border-color) !important;
 }
 
 [data-theme="light"] .franchise-banner {
-    background: linear-gradient(rgba(244, 247, 242, 0.85), rgba(244, 247, 242, 0.95)), url('/assets/photo/section_dessertsbev.webp') center/cover no-repeat !important;
+    background: linear-gradient(rgba(244, 247, 242, 0.85), rgba(244, 247, 242, 0.95)), url('/assets/photo/section_dessertsbev.webp?v=2') center/cover no-repeat !important;
 }
 
 /* Custom Navbar Toggler & Hamburger Menu styling */

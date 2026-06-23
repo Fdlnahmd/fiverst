@@ -8,7 +8,7 @@
     <div class="carousel-inner" style="height: 520px;">
         <!-- Slide 1 -->
         <div class="carousel-item active" style="height: 100%;">
-            <div class="w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/assets/photo/section_chicken.webp') center/cover no-repeat;"></div>
+            <div class="w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/assets/photo/section_chicken.webp?v=2') center/cover no-repeat;"></div>
             <div class="carousel-caption d-md-block glass-panel p-4" style="border-radius: 12px; max-width: 600px; margin: 0 auto 40px auto; bottom: 20px;">
                 <h2 class="gold-text mb-2">THE KAMPUNG CHICKEN DIFFERENCE</h2>
                 <p class="small mb-3">Nikmati ayam kampung Hainan khas kami yang segar dengan kandungan lemak yang lebih rendah namun kaya rasa, disajikan dengan saus jahe cabai buatan rumah.</p>
@@ -17,7 +17,7 @@
         </div>
         <!-- Slide 2 -->
         <div class="carousel-item" style="height: 100%;">
-            <div class="w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/assets/photo/section_pork.webp') center/cover no-repeat;"></div>
+            <div class="w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/assets/photo/section_pork.webp?v=2') center/cover no-repeat;"></div>
             <div class="carousel-caption d-md-block glass-panel p-4" style="border-radius: 12px; max-width: 600px; margin: 0 auto 40px auto; bottom: 20px;">
                 <h2 class="gold-text mb-2">MELT-IN-YOUR-MOUTH SUCCULENCE</h2>
                 <p class="small mb-3">Pilihan perut babi terbaik yang dimarinasi dalam rempah-rempah pilihan lalu direbus perlahan (slow-braised) untuk kelembutan rasa maksimal.</p>
@@ -26,7 +26,7 @@
         </div>
         <!-- Slide 3 -->
         <div class="carousel-item" style="height: 100%;">
-            <div class="w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/assets/photo/section_seafood2.webp') center/cover no-repeat;"></div>
+            <div class="w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/assets/photo/section_seafood2.webp?v=2') center/cover no-repeat;"></div>
             <div class="carousel-caption d-md-block glass-panel p-4" style="border-radius: 12px; max-width: 600px; margin: 0 auto 40px auto; bottom: 20px;">
                 <h2 class="gold-text mb-2">CRISP TO THE LAST BITE</h2>
                 <p class="small mb-3">Digulung dalam sereal harum dengan daun kari dan cabai padi untuk sensasi renyah gurih lezat di setiap suapannya.</p>

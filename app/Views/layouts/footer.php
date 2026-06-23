@@ -9,7 +9,7 @@
 <footer class="footer py-5 mt-5" style="background-color: var(--footer-bg); border-top: 1px solid var(--border-color); transition: var(--theme-transition);">
     <div class="container text-center">
         <a href="/">
-            <img src="/assets/photo/FS_wordmark.webp" alt="Five Star Logo" width="151" height="60" class="mb-3">
+            <img src="/assets/photo/FS_wordmark.webp?v=2" alt="Five Star Logo" width="151" height="60" class="mb-3">
         </a>
         <div class="d-flex justify-content-center gap-3 mb-4">
             <a href="https://www.instagram.com/" class="text-secondary fs-4 hover-gold" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>

@@ -20,7 +20,7 @@
     $isHome = ($requestPath === '/' || $requestPath === '/home' || $requestPath === '/user');
     if ($isHome):
     ?>
-    <link rel="preload" href="/assets/photo/section_chicken.webp" as="image" type="image/webp" fetchpriority="high">
+    <link rel="preload" href="/assets/photo/section_chicken.webp?v=2" as="image" type="image/webp" fetchpriority="high">
     <?php endif; ?>
 
     <!-- Google Fonts (Loaded directly via link tags to prevent request chaining) -->
@@ -77,7 +77,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
     
     <!-- Custom Style Sheet (Cached Version) -->
-    <link rel="stylesheet" href="/assets/css/style.css?v=1.0.0">
+    <link rel="stylesheet" href="/assets/css/style.css?v=2.0.0">
 </head>
 
 <body>
