@@ -14,6 +14,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
+    <!-- Preloading LCP background image for Homepages -->
+    <?php
+    $requestPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+    $isHome = ($requestPath === '/' || $requestPath === '/home' || $requestPath === '/user');
+    if ($isHome):
+    ?>
+    <link rel="preload" href="/assets/photo/section_chicken.webp" as="image" type="image/webp" fetchpriority="high">
+    <?php endif; ?>
+
+    <!-- Google Fonts (Loaded directly via link tags to prevent request chaining) -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
     <!-- Premium Favicons -->
     <link rel="icon" type="image/png" href="/assets/photo/favicon.png" />
     <link rel="shortcut icon" type="image/png" href="/favicon.png" />
