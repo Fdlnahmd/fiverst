@@ -23,8 +23,9 @@
     <link rel="preload" href="/assets/photo/section_chicken.webp?v=2" as="image" type="image/webp" fetchpriority="high">
     <?php endif; ?>
 
-    <!-- Google Fonts (Loaded directly via link tags to prevent request chaining) -->
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Google Fonts (Asynchronous Loading to eliminate render-blocking) -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" /></noscript>
 
     <!-- Premium Favicons -->
     <link rel="icon" type="image/png" href="/assets/photo/favicon.png" />
