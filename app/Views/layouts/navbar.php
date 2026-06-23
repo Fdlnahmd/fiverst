@@ -17,7 +17,7 @@ if ($isLoggedIn) {
     <div class="container">
         <!-- Logo Brand -->
         <a class="navbar-brand d-flex align-items-center" href="<?= $logoLink ?>">
-            <img src="/assets/photo/FS_wordmark.png" alt="Five Star Logo" height="52" class="d-inline-block align-text-top">
+            <img src="/assets/photo/FS_wordmark.webp" alt="Five Star Logo" width="131" height="52" class="d-inline-block align-text-top">
         </a>
 
         <!-- Responsive Toggle Button -->

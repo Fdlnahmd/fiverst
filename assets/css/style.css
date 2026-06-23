@@ -17,8 +17,8 @@
     --bg-navbar: rgba(15, 26, 20, 0.85);
     --text-primary: #E8F5EC;
     --text-secondary: #8AAF96;
-    --accent-crimson: #C1603A;
-    --accent-crimson-hover: #A34A29;
+    --accent-crimson: #AE4C26;
+    --accent-crimson-hover: #923C1B;
     --accent-gold: #C1603A;
     --accent-gold-gradient: linear-gradient(135deg, #C1603A 0%, #F3B27A 50%, #C1603A 100%);
     --accent-gold-glow: 0 0 15px rgba(193, 96, 58, 0.4);
@@ -40,8 +40,8 @@
     --bg-navbar: rgba(244, 247, 242, 0.95);
     --text-primary: #1E3020;
     --text-secondary: #5A7A5E;
-    --accent-crimson: #C1603A;
-    --accent-crimson-hover: #A34A29;
+    --accent-crimson: #AE4C26;
+    --accent-crimson-hover: #923C1B;
     --accent-gold: #C1603A;
     --accent-gold-gradient: linear-gradient(135deg, #C1603A 0%, #F3B27A 50%, #C1603A 100%);
     --accent-gold-glow: 0 0 15px rgba(193, 96, 58, 0.2);
@@ -385,8 +385,8 @@ h1, h2, h3, h4, h5, h6, .brand-title {
 }
 
 .carousel-caption.glass-panel .btn-gold {
-    background: var(--accent-gold) !important;
-    color: #ffffff !important;
+    background: var(--accent-gold-gradient) !important;
+    color: #121212 !important;
 }
 
 /* Light Theme overrides for Hero Carousel Frosted glass caption card */
@@ -411,8 +411,8 @@ h1, h2, h3, h4, h5, h6, .brand-title {
 }
 
 [data-theme="light"] .carousel-caption.glass-panel .btn-gold {
-    background: var(--accent-gold) !important;
-    color: #ffffff !important;
+    background: var(--accent-gold-gradient) !important;
+    color: #121212 !important;
 }
 
 /* Explicit secondary text coloring inside cards and sections */
@@ -440,7 +440,7 @@ h1, h2, h3, h4, h5, h6, .brand-title {
     font-weight: 700 !important;
 }
 
-[data-theme="light"] #about-us h4.gold-text {
+[data-theme="light"] #about-us h3.gold-text {
     background: none !important;
     background-image: none !important;
     -webkit-background-clip: unset !important;
@@ -456,12 +456,12 @@ h1, h2, h3, h4, h5, h6, .brand-title {
 
 /* Franchise Banner theme-aware styling */
 .franchise-banner {
-    background: linear-gradient(rgba(15, 26, 20, 0.85), rgba(15, 26, 20, 0.95)), url('/assets/photo/section_dessertsbev.jpg') center/cover no-repeat !important;
+    background: linear-gradient(rgba(15, 26, 20, 0.85), rgba(15, 26, 20, 0.95)), url('/assets/photo/section_dessertsbev.webp') center/cover no-repeat !important;
     border: 1px solid var(--border-color) !important;
 }
 
 [data-theme="light"] .franchise-banner {
-    background: linear-gradient(rgba(244, 247, 242, 0.85), rgba(244, 247, 242, 0.95)), url('/assets/photo/section_dessertsbev.jpg') center/cover no-repeat !important;
+    background: linear-gradient(rgba(244, 247, 242, 0.85), rgba(244, 247, 242, 0.95)), url('/assets/photo/section_dessertsbev.webp') center/cover no-repeat !important;
 }
 
 /* Custom Navbar Toggler & Hamburger Menu styling */

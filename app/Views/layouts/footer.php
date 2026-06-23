@@ -1,3 +1,5 @@
+</main>
+
 <!-- Back to Top Button -->
 <button type="button" class="btn btn-crimson btn-lg" id="btn-back-to-top">
     <i class="fas fa-arrow-up"></i>
@@ -7,12 +9,12 @@
 <footer class="footer py-5 mt-5" style="background-color: var(--footer-bg); border-top: 1px solid var(--border-color); transition: var(--theme-transition);">
     <div class="container text-center">
         <a href="/">
-            <img src="/assets/photo/FS_wordmark.png" alt="Five Star Logo" height="60" class="mb-3">
+            <img src="/assets/photo/FS_wordmark.webp" alt="Five Star Logo" width="151" height="60" class="mb-3">
         </a>
         <div class="d-flex justify-content-center gap-3 mb-4">
-            <a href="https://www.instagram.com/" class="text-secondary fs-4 hover-gold" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/" class="text-secondary fs-4 hover-gold" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.twitter.com/" class="text-secondary fs-4 hover-gold" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" class="text-secondary fs-4 hover-gold" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" class="text-secondary fs-4 hover-gold" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com/" class="text-secondary fs-4 hover-gold" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
         </div>
         <p class="text-secondary mb-0 small">&copy; <?= date("Y") ?> Five Star Hainanese Kampung Chicken Rice. All Rights Reserved.</p>
     </div>

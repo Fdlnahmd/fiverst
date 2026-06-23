@@ -8,7 +8,7 @@
     <div class="carousel-inner" style="height: 520px;">
         <!-- Slide 1 -->
         <div class="carousel-item active" style="height: 100%;">
-            <div class="w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/assets/photo/section_chicken.jpg') center/cover no-repeat;"></div>
+            <div class="w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/assets/photo/section_chicken.webp') center/cover no-repeat;"></div>
             <div class="carousel-caption d-md-block glass-panel p-4" style="border-radius: 12px; max-width: 600px; margin: 0 auto 40px auto; bottom: 20px;">
                 <h2 class="gold-text mb-2">THE KAMPUNG CHICKEN DIFFERENCE</h2>
                 <p class="small mb-3">Nikmati ayam kampung Hainan khas kami yang segar dengan kandungan lemak yang lebih rendah namun kaya rasa, disajikan dengan saus jahe cabai buatan rumah.</p>
@@ -17,7 +17,7 @@
         </div>
         <!-- Slide 2 -->
         <div class="carousel-item" style="height: 100%;">
-            <div class="w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/assets/photo/section_pork.jpg') center/cover no-repeat;"></div>
+            <div class="w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/assets/photo/section_pork.webp') center/cover no-repeat;"></div>
             <div class="carousel-caption d-md-block glass-panel p-4" style="border-radius: 12px; max-width: 600px; margin: 0 auto 40px auto; bottom: 20px;">
                 <h2 class="gold-text mb-2">MELT-IN-YOUR-MOUTH SUCCULENCE</h2>
                 <p class="small mb-3">Pilihan perut babi terbaik yang dimarinasi dalam rempah-rempah pilihan lalu direbus perlahan (slow-braised) untuk kelembutan rasa maksimal.</p>
@@ -26,7 +26,7 @@
         </div>
         <!-- Slide 3 -->
         <div class="carousel-item" style="height: 100%;">
-            <div class="w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/assets/photo/section_seafood2.jpg') center/cover no-repeat;"></div>
+            <div class="w-100 h-100" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('/assets/photo/section_seafood2.webp') center/cover no-repeat;"></div>
             <div class="carousel-caption d-md-block glass-panel p-4" style="border-radius: 12px; max-width: 600px; margin: 0 auto 40px auto; bottom: 20px;">
                 <h2 class="gold-text mb-2">CRISP TO THE LAST BITE</h2>
                 <p class="small mb-3">Digulung dalam sereal harum dengan daun kari dan cabai padi untuk sensasi renyah gurih lezat di setiap suapannya.</p>
@@ -52,7 +52,7 @@
     <div class="row g-4 align-items-center">
         <div class="col-md-6">
             <div class="p-4 glass-panel" style="border-radius: 16px;">
-                <h4 class="gold-text mb-3">Warisan Rasa Autentik</h4>
+                <h3 class="gold-text mb-3">Warisan Rasa Autentik</h3>
                 <p class="text-secondary small mb-3">
                     Hidangan khas kami dimulai dari ayam kampung dengan kesegaran dan kualitas terbaik. Dipilih dan disiapkan dengan sangat hati-hati, rasa murninya terpancar melalui masakan lambat yang sederhana namun ahli.
                 </p>
@@ -63,7 +63,7 @@
         </div>
         <div class="col-md-6">
             <div class="p-4 glass-panel" style="border-radius: 16px;">
-                <h4 class="gold-text mb-3">Keahlian Sang Pendiri</h4>
+                <h3 class="gold-text mb-3">Keahlian Sang Pendiri</h3>
                 <p class="text-secondary small mb-3">
                     Tumbuh di sekitar peternakan ayam dan kemudian menjadi pemasok terkemuka, pendiri kami membekali dirinya dengan keahlian yang sangat tajam. Beliau dapat mengetahui umur ayam, kondisi kesehatan, dan perawatan yang diberikan hanya dengan melihat fisiknya secara langsung.
                 </p>
@@ -85,7 +85,7 @@
             <a href="/user/menu#chicken" class="text-decoration-none" style="color: var(--text-primary);">
                 <div class="p-3 glass-panel h-100 hover-border-gold" style="border-radius: 12px;">
                     <i class="fa-solid fa-drumstick-bite fs-3 gold-text mb-2"></i>
-                    <h6 class="mb-0 text-uppercase">Chicken</h6>
+                    <h3 class="fs-6 mb-0 text-uppercase">Chicken</h3>
                 </div>
             </a>
         </div>
@@ -93,7 +93,7 @@
             <a href="/user/menu#pork" class="text-decoration-none" style="color: var(--text-primary);">
                 <div class="p-3 glass-panel h-100 hover-border-gold" style="border-radius: 12px;">
                     <i class="fa-solid fa-bacon fs-3 gold-text mb-2"></i>
-                    <h6 class="mb-0 text-uppercase">Pork</h6>
+                    <h3 class="fs-6 mb-0 text-uppercase">Pork</h3>
                 </div>
             </a>
         </div>
@@ -101,7 +101,7 @@
             <a href="/user/menu#omelette" class="text-decoration-none" style="color: var(--text-primary);">
                 <div class="p-3 glass-panel h-100 hover-border-gold" style="border-radius: 12px;">
                     <i class="fa-solid fa-egg fs-3 gold-text mb-2"></i>
-                    <h6 class="mb-0 text-uppercase">Tofu & Omelette</h6>
+                    <h3 class="fs-6 mb-0 text-uppercase">Tofu & Omelette</h3>
                 </div>
             </a>
         </div>
@@ -109,7 +109,7 @@
             <a href="/user/menu#fish" class="text-decoration-none" style="color: var(--text-primary);">
                 <div class="p-3 glass-panel h-100 hover-border-gold" style="border-radius: 12px;">
                     <i class="fa-solid fa-fish fs-3 gold-text mb-2"></i>
-                    <h6 class="mb-0 text-uppercase">Fish</h6>
+                    <h3 class="fs-6 mb-0 text-uppercase">Fish</h3>
                 </div>
             </a>
         </div>
@@ -117,7 +117,7 @@
             <a href="/user/menu#seafood" class="text-decoration-none" style="color: var(--text-primary);">
                 <div class="p-3 glass-panel h-100 hover-border-gold" style="border-radius: 12px;">
                     <i class="fa-solid fa-shrimp fs-3 gold-text mb-2"></i>
-                    <h6 class="mb-0 text-uppercase">Seafood</h6>
+                    <h3 class="fs-6 mb-0 text-uppercase">Seafood</h3>
                 </div>
             </a>
         </div>
@@ -125,7 +125,7 @@
             <a href="/user/menu#vegetables" class="text-decoration-none" style="color: var(--text-primary);">
                 <div class="p-3 glass-panel h-100 hover-border-gold" style="border-radius: 12px;">
                     <i class="fa-solid fa-leaf fs-3 gold-text mb-2"></i>
-                    <h6 class="mb-0 text-uppercase">Vegetables</h6>
+                    <h3 class="fs-6 mb-0 text-uppercase">Vegetables</h3>
                 </div>
             </a>
         </div>
@@ -133,7 +133,7 @@
             <a href="/user/menu#srn" class="text-decoration-none" style="color: var(--text-primary);">
                 <div class="p-3 glass-panel h-100 hover-border-gold" style="border-radius: 12px;">
                     <i class="fa-solid fa-bowl-rice fs-3 gold-text mb-2"></i>
-                    <h6 class="mb-0 text-uppercase">Rice & Noodles</h6>
+                    <h3 class="fs-6 mb-0 text-uppercase">Rice & Noodles</h3>
                 </div>
             </a>
         </div>
@@ -141,7 +141,7 @@
             <a href="/user/menu#dnb" class="text-decoration-none" style="color: var(--text-primary);">
                 <div class="p-3 glass-panel h-100 hover-border-gold" style="border-radius: 12px;">
                     <i class="fa-solid fa-ice-cream fs-3 gold-text mb-2"></i>
-                    <h6 class="mb-0 text-uppercase">Desserts</h6>
+                    <h3 class="fs-6 mb-0 text-uppercase">Desserts</h3>
                 </div>
             </a>
         </div>
